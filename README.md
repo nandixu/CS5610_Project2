@@ -1,4 +1,4 @@
-Writeup of Project2 BattleShip Nandi Xu:
+#H1 Writeup of Project2 BattleShip Nandi Xu:
 
 Notice on the development of the game:
      The game is composed of two parts: the free game is made in React, and the normal game is made in JS. The access to free game and everything else excecpt 
