@@ -12,21 +12,21 @@ instruction team as well. The repo you see now is a new one, and please let me k
 Thank you!
 
 ## Challenges:
-     The biggest challenge is the main scope of the game. I literally rebuilt the game 3-4 times, and every time I restart everything, it was an absolute new experience. 
+The biggest challenge is the main scope of the game. I literally rebuilt the game 3-4 times, and every time I restart everything, it was an absolute new experience. 
 In the final version, the game contains two parts that have two different structures: the free game is made in React, and the normal game is made in JS. I wish these
 two different built structure could demonstrate the capability of using html, css, JS, React, and Redux.
 
 ## Additional Features:
-    I would write a smart AI that could move based on player's action.
+I would write a smart AI that could move based on player's action.
 
 ## Assumptions I made:
-    The players do not click on weird places, do not click a square 100 times per second, and hopefully follow the instructions.
+The players do not click on weird places, do not click a square 100 times per second, and hopefully follow the instructions.
 
 ## How long does it take:
-    30+ hours in three weeks
+30+ hours in three weeks
 
 ## Bonus points:
-    I tried out both bonus points. Drag and drop is implemented in normal game, and uses event listeners in JS. Local storage was implemented in Free Game by Redux
+I tried out both bonus points. Drag and drop is implemented in normal game, and uses event listeners in JS. Local storage was implemented in Free Game by Redux
 
 
 ## References:
