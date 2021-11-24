@@ -1,0 +1,141 @@
+
+#square {
+    width: 40px;
+    height: 40px;
+    border: solid gray 1px;
+}
+
+.userBoard {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    margin:10px;
+}
+
+.AIsquare {
+    width: 40px;
+    height: 40px;
+    background-color: lightblue;
+    border: solid gray 1px;
+}
+
+.AIBoard {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    margin:10px;
+}
+
+.BoardIndicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    align-items: center;
+}
+
+.BoardContainer{
+    display:flex;
+}
+
+.ShipHarbor{
+    width: 400px;
+    height: 400px;
+    border: solid black 4px;
+    margin: 10px;
+}
+
+.sea {
+    background-color: aqua;
+}
+
+.hit {
+    background-color: red;
+}
+
+.miss {
+    background-color: gray;
+}
+
+.hitIndicator {
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    background-color: red;
+    margin: 5px;
+}
+
+.missIndicator {
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    background-color: gray;
+    margin: 5px;
+}
+
+.indicatorContainer {
+    display: flex;
+}
+
+/* Ship Info */
+
+.destroyer {
+    background-color: aqua;
+}
+
+.submarine {
+    background-color: aqua;
+}
+
+.cruiser {
+    background-color: aqua;
+}
+
+.battleship {
+    background-color: aqua;
+}
+
+.carrier {
+    background-color: aqua;
+}
+
+/* Control Panel */
+
+.controlPanel {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.freeGameButton {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+.normalGameButton {
+    background-color: lightskyblue;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    display: none;
+}
+
+.noDisplay {
+    display: none;
+}

@@ -1,0 +1,266 @@
+
+body{
+    background-color: lightgray;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.welcome{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.modeIntroContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.modeIntro{
+  width: 500px;
+  height: 200px;
+  border: solid green 2px;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  text-indent: 30px;
+  font-size: 20px;
+}
+
+.startNormalGame{
+    text-align: center;
+    color: green;
+    font-size: 60px;
+}
+
+.buttonContainer{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+a.button3{
+  display: inline-block;
+  padding:0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all, 0.2s;
+}
+a.button3:hover{
+  background-color: #4095c6;
+}
+@media all and (max-width:30em){
+  a.button3{
+    display:block;
+    margin:0.2em auto;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+.grid-user {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightblue;
+  margin: 20px;
+}
+
+.grid div {
+  width: 40px;
+  height: 40px;
+}
+
+.grid-computer {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightblue;
+  margin: 20px;
+}
+
+.ship-harbor {
+  width: 400px;
+  height: 600px;
+  margin: 20px;
+  border: solid black 5px
+}
+
+.notice {
+  margin-left: 25px;
+  width: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hitIndicator {
+  width: 40px;
+  height: 40px;
+  border: solid black 1px;
+  background-color: red;
+  margin: 5px;
+}
+
+.missIndicator {
+  width: 40px;
+  height: 40px;
+  border: solid black 1px;
+  background-color: gray;
+  margin: 5px;
+}
+
+.destroyer-container {
+  width: 80px;
+  height: 40px;
+  background-color: orange;
+  margin: 10px;
+  display: flex;
+}
+.destroyer-container-vertical {
+  width: 40px;
+  height: 80px;
+  background-color: orange;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.submarine-container {
+  width: 120px;
+  height: 40px;
+  background-color: pink;
+  margin: 10px;
+  display: flex;
+}
+
+.submarine-container-vertical {
+  width: 40px;
+  height: 120px;
+  background-color: pink;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cruiser-container {
+  width: 120px;
+  height: 40px;
+  background-color: purple;
+  margin: 10px;
+  display: flex;
+}
+
+.cruiser-container-vertical {
+  width: 40px;
+  height: 120px;
+  background-color: purple;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.battleship-container {
+  width: 160px;
+  height: 40px;
+  background-color: aqua;
+  margin: 10px;
+  display: flex;
+}
+
+.battleship-container-vertical {
+  width: 40px;
+  height: 160px;
+  background-color: aqua;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.carrier-container {
+  width: 200px;
+  height: 40px;
+  background-color: green;
+  margin: 10px;
+  display: flex;
+}
+
+.carrier-container-vertical {
+  width: 40px;
+  height: 200px;
+  background-color: green;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.ship div {
+  width: 40px;
+  height: 40px;
+}
+
+.sea{
+  background-color: lightblue;
+}
+
+.destroyer {
+  background-color: orange;
+}
+
+.submarine {
+  background-color: pink;
+}
+
+.cruiser {
+  background-color: purple;
+}
+
+.battleship {
+  background-color: gray;
+}
+
+.carrier {
+  background-color: green;
+}
+
+.boom {
+  background-color: red;
+}
+
+.miss {
+   background-color: gray;
+}
+
+.connected, .ready {
+  font-weight: normal;
+}
+
+.connected span,
+.ready span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: red;
+}
+
+span.green {
+  background: green;
+}
